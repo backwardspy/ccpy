@@ -1,0 +1,7 @@
+{
+    "project_name": null,
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+    "project_module": "{{ cookiecutter.project_slug.replace('-', '_') }}",
+    "author": "backwardspy",
+    "email": "backwardspy@gmail.com"
+}
